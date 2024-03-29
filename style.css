@@ -1,0 +1,58 @@
+body{
+    background: #393e3f;
+    color: rgb(0, 0, 0);
+   background-image:url(img1.jpg) ;
+   background-repeat: no-repeat;
+   background-position-y: 0px;
+   background-size: 100vw 100vh;
+  
+}
+#search {
+    border-radius: 4vw;
+    border: none;
+    width: 370px;
+    height: 57px;
+    position: absolute;
+    top: 15vh;
+    left: 35vw;
+   opacity: 1;
+   box-shadow: 10px 10px 10px rgb(0, 0, 0) -5px -5px -5px rgb(0, 0, 0); 
+
+}
+.form button{
+   
+    position: relative;
+    top: 35vh;
+    left: 41vw;
+    height: 40px;
+    width: 100px;
+border-radius: 4vw;
+    background:#443636;
+    box-shadow: 10px 10px 10px rgb(135, 210, 235);
+    color: cyan;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+@media only screen and (max-width:700px){
+    .sun {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 25vh;
+        color: black;
+
+    }
+    
+    
+    
+    .form button{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
